@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+}
+header .head {
+  margin: 0 auto;
+  width: 640px;
+  height: 280px;
+}
+nav {
+  margin: 0 auto;
+  width: 640px;
+  height: 300px;
+}
+nav ul {
+  list-style: none;
+  padding: 10px;
+  background-color: #011957;
+  height: 300px;
+}
+nav ul li:hover a {
+  color: red;
+}
+nav ul li {
+  margin: 11px 1px 0 18px;
+  float: left;
+  width: 125px;
+  height: 40px;
+  line-height: 40px;
+  background: url(阶段性测试/images/j.png) no-repeat 100px 14px;
+  background-color: #6745b5;
+  border-radius: 6px;
+  padding-left: 4px;
+  border-bottom: 8px solid #3e13a0;
+  border-top: 1px solid rgba(62, 19, 160, 0.5);
+  border-left: 1px solid rgba(62, 19, 160, 0.5);
+  border-right: 1px solid rgba(62, 19, 160, 0.5);
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+article {
+  padding-top: 30px;
+  clear: both;
+  margin: 0 auto;
+  width: 640px;
+  height: 3400px;
+  background-color: #011957;
+}
+article ul {
+  list-style: none;
+}
+article ul li {
+  float: left;
+  width: 300px;
+  height: 400px;
+  background-color: pink;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+article ul li img {
+  width: 300px;
+  border-radius: 8px;
+}
+article ul li p {
+  padding-left: 10px;
+  font-size: 20px;
+}
+article ul li .new {
+  padding-left: 10px;
+  display: block;
+  color: red;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+article ul li .last {
+  padding-left: 10px;
+  text-decoration: line-through;
+}
+article ul li a {
+  display: block;
+  width: 45px;
+  font-size: 18px;
+  float: right;
+  text-decoration: none;
+  background-color: red;
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+  margin-top: -50px;
+  margin-right: 20px;
+}
