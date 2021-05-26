@@ -59,11 +59,11 @@ article ul li {
   float: left;
   width: 300px;
   height: 400px;
-  background-color: pink;
   border-radius: 8px;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 20px;
+  background-color: white;
 }
 article ul li img {
   width: 300px;
